@@ -8,7 +8,7 @@ I will be using outlines from Mehr Nastaliq as an example. Mehr Nastaliq is a fo
 
 ## Stages of engineering
 
-The way I engineer Nastaliq fonts is a development of the process designed for Linotype Qalmi. The patent for Linotype Qalmi explains this process, so I encourage you to read it carefully. The patent has now expired, and you are allowed to use the process for your fonts.
+The way I engineer Nastaliq fonts is a development of the process designed for Linotype Qalmi. The [patent for Linotype Qalmi](GB2208556A.pdf) explains this process, so I encourage you to read it carefully. The patent has now expired, and you are allowed to use the process for your fonts.
 
 ### Preparation and glyph renaming
 
