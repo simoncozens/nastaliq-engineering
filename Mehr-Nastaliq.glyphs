@@ -5,7 +5,9 @@ DisplayStrings = (
 "/LAMi3/BE_BARI_YEf1",
 "",
 "/sdb.yb",
-"/sdb"
+"/sdb",
+"/BEm1/ALIFu1/HAMZA_ABOVE",
+"/tdb/sdb/ddb"
 );
 copyright = "Copyright (c) ITU Punjab Pakistan, 2016. All rights reserved.";
 customParameters = (
@@ -7983,14 +7985,10 @@ unicode = 066C;
 },
 {
 glyphname = HAMZA_ABOVE;
-lastChange = "2020-10-13 12:49:45 +0000";
+lastChange = "2020-10-16 16:16:56 +0000";
 layers = (
 {
 anchors = (
-{
-name = Anchor121;
-position = "{27, 275}";
-},
 {
 name = _bottom2;
 position = "{0, 0}";
@@ -8582,7 +8580,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = sdb;
-lastChange = "2020-10-16 13:39:00 +0000";
+lastChange = "2020-10-16 16:23:39 +0000";
 layers = (
 {
 anchors = (
@@ -8596,7 +8594,7 @@ position = "{0, 0}";
 },
 {
 name = bottom;
-position = "{263, -676}";
+position = "{263, -720}";
 }
 );
 layerId = "6D6001D6-F15D-4D59-841D-B4ABFE65A828";
@@ -8655,17 +8653,17 @@ subCategory = Nonspacing;
 },
 {
 glyphname = tdb;
-lastChange = "2020-10-13 12:20:46 +0000";
+lastChange = "2020-10-16 16:24:01 +0000";
 layers = (
 {
 anchors = (
 {
-name = Anchor119;
-position = "{0, 25}";
-},
-{
 name = _bottom;
 position = "{0, 0}";
+},
+{
+name = bottom;
+position = "{264, -1003}";
 }
 );
 layerId = "6D6001D6-F15D-4D59-841D-B4ABFE65A828";
@@ -8719,7 +8717,7 @@ nodes = (
 "274.667 -165.667 OFFCURVE",
 "244 -199 CURVE",
 "240 -195 LINE SMOOTH",
-"176.667 -133.667 OFFCURVE",
+"178 -133 OFFCURVE",
 "139 -103 OFFCURVE",
 "127 -103 CURVE SMOOTH",
 "124 -103 LINE SMOOTH",
@@ -8727,7 +8725,7 @@ nodes = (
 "107 -109.667 OFFCURVE",
 "93 -123 CURVE",
 "23 -218.333 OFFCURVE",
-"-13.333 -280 OFFCURVE",
+"-16 -280 OFFCURVE",
 "-16 -308 CURVE SMOOTH",
 "-16 -314 LINE",
 "-7 -326 LINE",
@@ -8752,17 +8750,17 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ddb;
-lastChange = "2020-10-13 12:20:46 +0000";
+lastChange = "2020-10-16 16:23:22 +0000";
 layers = (
 {
 anchors = (
 {
-name = Anchor119;
-position = "{-9, 243}";
-},
-{
 name = _bottom;
 position = "{0, 0}";
+},
+{
+name = bottom;
+position = "{262, -831}";
 }
 );
 layerId = "6D6001D6-F15D-4D59-841D-B4ABFE65A828";
@@ -8793,7 +8791,7 @@ nodes = (
 "284.667 -165.667 OFFCURVE",
 "254 -199 CURVE",
 "250 -195 LINE SMOOTH",
-"186.667 -133.667 OFFCURVE",
+"188 -133 OFFCURVE",
 "149 -103 OFFCURVE",
 "137 -103 CURVE SMOOTH",
 "134 -103 LINE SMOOTH",
@@ -8801,7 +8799,7 @@ nodes = (
 "117 -109.667 OFFCURVE",
 "103 -123 CURVE",
 "33 -218.333 OFFCURVE",
-"-3.333 -280 OFFCURVE",
+"-6 -280 OFFCURVE",
 "-6 -308 CURVE SMOOTH",
 "-6 -314 LINE",
 "3 -326 LINE",
@@ -9169,17 +9167,17 @@ subCategory = Nonspacing;
 },
 {
 glyphname = sda;
-lastChange = "2020-10-13 12:20:46 +0000";
+lastChange = "2020-10-16 16:21:22 +0000";
 layers = (
 {
 anchors = (
 {
-name = Anchor117;
-position = "{-81, -1433}";
-},
-{
 name = _top;
 position = "{0, 0}";
+},
+{
+name = bottom2;
+position = "{-20, -1160}";
 }
 );
 layerId = "6D6001D6-F15D-4D59-841D-B4ABFE65A828";
@@ -9223,7 +9221,7 @@ nodes = (
 "360.667 -374 OFFCURVE",
 "346 -362 CURVE SMOOTH",
 "299.333 -324 OFFCURVE",
-"269 -304.667 OFFCURVE",
+"269 -304 OFFCURVE",
 "255 -304 CURVE SMOOTH",
 "254 -304 LINE SMOOTH"
 );
@@ -12548,13 +12546,17 @@ subCategory = Ligature;
 },
 {
 glyphname = ALIFu1;
-lastChange = "2020-10-13 12:04:57 +0000";
+lastChange = "2020-10-16 16:14:42 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom2;
 position = "{0, 0}";
+},
+{
+name = top;
+position = "{-32, 1904}";
 },
 {
 name = top2;
@@ -39262,17 +39264,17 @@ note = "exclam#1";
 },
 {
 glyphname = dda;
-lastChange = "2020-10-13 12:49:45 +0000";
+lastChange = "2020-10-16 16:21:07 +0000";
 layers = (
 {
 anchors = (
 {
-name = Anchor117;
-position = "{-18, -1406}";
-},
-{
 name = _top;
 position = "{0, 0}";
+},
+{
+name = bottom2;
+position = "{-36, -1160}";
 }
 );
 layerId = "6D6001D6-F15D-4D59-841D-B4ABFE65A828";
@@ -39298,7 +39300,7 @@ nodes = (
 "89.667 -389.667 OFFCURVE",
 "75 -403 CURVE",
 "1.667 -498.333 OFFCURVE",
-"-36.333 -560 OFFCURVE",
+"-39 -560 OFFCURVE",
 "-39 -588 CURVE SMOOTH",
 "-39 -594 LINE",
 "-30 -606 LINE",
@@ -39405,17 +39407,17 @@ subCategory = Nonspacing;
 },
 {
 glyphname = tda;
-lastChange = "2020-10-13 12:49:45 +0000";
+lastChange = "2020-10-16 16:20:41 +0000";
 layers = (
 {
 anchors = (
 {
-name = Anchor117;
-position = "{-63, -1170}";
-},
-{
 name = _top;
 position = "{0, 0}";
+},
+{
+name = bottom2;
+position = "{-41, -1160}";
 }
 );
 layerId = "6D6001D6-F15D-4D59-841D-B4ABFE65A828";
@@ -39464,7 +39466,7 @@ nodes = (
 "84.667 -389.667 OFFCURVE",
 "70 -403 CURVE",
 "-3.333 -498.333 OFFCURVE",
-"-41.333 -560 OFFCURVE",
+"-44 -560 OFFCURVE",
 "-44 -588 CURVE SMOOTH",
 "-44 -594 LINE",
 "-35 -606 LINE",
@@ -40472,8 +40474,8 @@ MIMi = 2;
 MIMm = 3;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 3;
 TOEi = 2;
 TOEm = 3;
@@ -40503,8 +40505,8 @@ MIMi = 2;
 MIMm = 3;
 SADi = 2;
 SADm = 2;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 3;
 TOEi = 2;
 TOEm = 3;
@@ -40534,8 +40536,8 @@ MIMi = 2;
 MIMm = 3;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 3;
 TOEi = 2;
 TOEm = 3;
@@ -40565,8 +40567,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 2;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -40596,8 +40598,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 2;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -40627,8 +40629,8 @@ MIMi = 2;
 MIMm = 3;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 3;
@@ -40658,8 +40660,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -40689,8 +40691,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -40720,8 +40722,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -40751,8 +40753,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -40782,8 +40784,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -40813,8 +40815,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -40844,8 +40846,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -40875,8 +40877,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -40906,8 +40908,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -40937,8 +40939,8 @@ MIMi = 3;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 4;
 SIN_SINi = 2;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -40968,8 +40970,8 @@ MIMi = 3;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 4;
 SIN_SINi = 2;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -40999,8 +41001,8 @@ MIMi = 3;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 4;
 SIN_SINi = 2;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -41030,8 +41032,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -41061,8 +41063,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -41092,8 +41094,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -41123,8 +41125,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -41154,8 +41156,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -41185,8 +41187,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41216,8 +41218,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41247,8 +41249,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 4;
@@ -41278,8 +41280,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 4;
@@ -41309,8 +41311,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 4;
@@ -41340,8 +41342,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 4;
@@ -41371,8 +41373,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -41402,8 +41404,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -41433,8 +41435,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -41464,8 +41466,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -41495,8 +41497,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -41526,8 +41528,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 4;
 SIN_SINi = 1;
+SINi = 4;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -41557,8 +41559,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41588,8 +41590,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41619,8 +41621,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41650,8 +41652,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -41681,8 +41683,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -41712,8 +41714,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 3;
 SIN_SINi = 1;
+SINi = 3;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41743,8 +41745,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 3;
 SIN_SINi = 1;
+SINi = 3;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41774,8 +41776,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 3;
 SIN_SINi = 1;
+SINi = 3;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41805,8 +41807,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 3;
 SIN_SINi = 1;
+SINi = 3;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -41836,8 +41838,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 3;
@@ -41867,8 +41869,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 3;
@@ -41898,8 +41900,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 3;
@@ -41929,8 +41931,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 3;
@@ -41960,8 +41962,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -41991,8 +41993,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42022,8 +42024,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 4;
@@ -42053,8 +42055,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42084,8 +42086,8 @@ MIMi = 3;
 MIMm = 2;
 SADi = 3;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 4;
@@ -42115,8 +42117,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 3;
 SIN_SINi = 1;
+SINi = 3;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -42146,8 +42148,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 2;
@@ -42177,8 +42179,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 2;
@@ -42208,8 +42210,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 2;
@@ -42239,8 +42241,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42270,8 +42272,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 3;
 SIN_SINi = 2;
+SINi = 3;
 SINm = 3;
 TOEi = 1;
 TOEm = 3;
@@ -42301,8 +42303,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42332,8 +42334,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 2;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 3;
@@ -42363,8 +42365,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 4;
@@ -42394,8 +42396,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42425,8 +42427,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42456,8 +42458,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 3;
 SIN_SINi = 2;
+SINi = 3;
 SINm = 3;
 TOEi = 4;
 TOEm = 3;
@@ -42487,8 +42489,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42518,8 +42520,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42549,8 +42551,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42580,8 +42582,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42611,8 +42613,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42642,8 +42644,8 @@ MIMi = 3;
 MIMm = 3;
 SADi = 3;
 SADm = 2;
-SINi = 3;
 SIN_SINi = 1;
+SINi = 3;
 SINm = 3;
 TOEi = 2;
 TOEm = 3;
@@ -42673,8 +42675,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42704,8 +42706,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42735,8 +42737,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42766,8 +42768,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42797,8 +42799,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42828,8 +42830,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42859,8 +42861,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42890,8 +42892,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42921,8 +42923,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42952,8 +42954,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -42983,8 +42985,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43014,8 +43016,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43045,8 +43047,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43076,8 +43078,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43107,8 +43109,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43138,8 +43140,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43169,8 +43171,8 @@ MIMi = 3;
 MIMm = 1;
 SADi = 3;
 SADm = 2;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 3;
 TOEi = 2;
 TOEm = 2;
@@ -43200,8 +43202,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -43231,8 +43233,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43262,8 +43264,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 2;
-SINi = 2;
 SIN_SINi = 1;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 3;
@@ -43293,8 +43295,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43324,8 +43326,8 @@ MIMi = 3;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 2;
 TOEm = 2;
@@ -43355,8 +43357,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43386,8 +43388,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43417,8 +43419,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43448,8 +43450,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43479,8 +43481,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43510,8 +43512,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43541,8 +43543,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43572,8 +43574,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43603,8 +43605,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43634,8 +43636,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;
@@ -43665,8 +43667,8 @@ MIMi = 2;
 MIMm = 2;
 SADi = 2;
 SADm = 3;
-SINi = 2;
 SIN_SINi = 2;
+SINi = 2;
 SINm = 2;
 TOEi = 4;
 TOEm = 3;
@@ -43696,8 +43698,8 @@ MIMi = 1;
 MIMm = 1;
 SADi = 1;
 SADm = 1;
-SINi = 1;
 SIN_SINi = 1;
+SINi = 1;
 SINm = 1;
 TOEi = 1;
 TOEm = 1;

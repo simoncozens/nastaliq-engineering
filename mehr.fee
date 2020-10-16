@@ -202,6 +202,7 @@ Feature mark {
     Attach &top &_top bases;
     Attach &bottom &_bottom bases;
     Attach &comma &_comma bases;
+    Attach &bottom2 &_bottom2 bases;
     Attach &inside &_inside bases;
   };
 };
@@ -214,6 +215,7 @@ Feature mkmk {
   Routine DoMarkMark {
     Attach &top &_top marks;
     Attach &bottom &_bottom marks;
+    Attach &bottom2 &_bottom2 marks;
   };
 };
 
