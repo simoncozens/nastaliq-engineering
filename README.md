@@ -69,7 +69,7 @@ Next, we perform mark positioning and cursive attachment. We use a build script 
 
 * Finally, we fix up any mark clashes. The most important part of this is what the Qalmi patent describes as the "knock-on value". This means that sequences of consecutive nuktas need to have spacing added to *each* nukta to separate them out. This is handled by another FEE plugin. Further rules separate marks from base characters. *This part is a work in progress; the current set of rules is borrowed from another font and needs adjusting for Mehr.*
 
-Now, I suggest reading through the FEE file to understand how I implemented each of these operations.
+Now, I suggest reading through the [FEE file](mehr.fee) to understand how I implemented each of these operations.
 
 ## Build scripts
 
