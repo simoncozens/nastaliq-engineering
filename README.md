@@ -1,7 +1,5 @@
 # Nastaliq Font Engineering Process
 
-*Please note: the engineering in this font is currently unfinished. Mark position and mark-to-mark positioning is incomplete, some ligatures are unused, and some glyph connections are incorrect.*
-
 The purpose of this repository is to explain how I approach engineering Nastaliq fonts. I hope that this guide will help other people to develop their own Nastaliq fonts.
 
 I will be using outlines from Mehr Nastaliq as an example. Mehr Nastaliq is a font developed by Zeeshan Nasar and based on the calligraphy of Nasrullah Mehr. Thanks to Nasar and Mehr for making the font available under a Creative Commons license.
