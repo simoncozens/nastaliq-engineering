@@ -100,9 +100,9 @@ Feature init {
 # final forms in medial position.
 Feature medi {
 
-  #Routine Exception1 {
-  #  Substitute [SINu1 SINi1 SINm1] { BEu1 } BEf1 -> BEm4;
-  #} IgnoreMarks;
+  Routine Exception1 {
+    Substitute [SINu1 SINi1 SINm1] { BEu1 } BEf1 -> BEm4;
+  } IgnoreMarks;
 
   SuffixingSubstitute [
     AINu1 BEu1 FEu1 GAFu1 HAYAu1 KAFu1 LAMu1 MIMu1 SADu1 SINu1 TOEu1
@@ -127,8 +127,8 @@ Feature isol {
 
 DefineClass @below_nuktas = /^.db(.yb)?$/;
 DefineClass @above_nuktas = /^.da$/;
-#DefineClass @other_above_marks = [toeda MADDA DAMMA];
-#DefineClass @all_above_marks = @above_nuktas | @other_above_marks;
+DefineClass @other_above_marks = [toeda ZABAR PESH];
+DefineClass @all_above_marks = @above_nuktas | @other_above_marks;
 DefineClass @nuktas = @above_nuktas | @below_nuktas | /^.di$/; # di = JIM dots
 DefineClass @nuktas_and_kasra = [@nuktas KASRA KASRA.yb];
 
@@ -137,19 +137,11 @@ DefineClass @below_dots = [@below_nuktas KASRA KASRA.yb];
 
 Feature rlig {
   # Mehr has its own set of final ligature forms, apply these first.
-  # TODO: Write a FEE plugin to make this easier.
-  Routine Ligatures {
-    Substitute /BEm\d+$/ BARI_YEf1 -> BE_BARI_YEf1;
-    Substitute /BEi\d+$/ BARI_YEf1 -> BE_BARI_YEu1;
-    Substitute /JIMm\d+$/ BARI_YEf1 -> JIM_BARI_YEf1;
-    Substitute /JIMi\d+$/ BARI_YEf1 -> JIM_BARI_YEu1;
-    Substitute /SINm\d+$/ BARI_YEf1 -> SIN_BARI_YEf1;
-    Substitute /SINi\d+$/ BARI_YEf1 -> SIN_BARI_YEu1;
-    Substitute /SADm\d+$/ BARI_YEf1 -> SAD_BARI_YEf1;
-    Substitute /SADi\d+$/ BARI_YEf1 -> SAD_BARI_YEu1;
-    Substitute /TOEm\d+$/ BARI_YEf1 -> TOE_BARI_YEf1;
-    Substitute /TOEi\d+$/ BARI_YEf1 -> TOE_BARI_YEu1;
-  } IgnoreMarks;
+  # This is done with a FEE plugin, but I've temporarily disabled it because
+  # I haven't placed any anchors for mark-to-ligature positioning for
+  # this ligature glyphs, which means the dots end up in funny places.
+  LoadPlugin nastaliqTools.Ligatures;
+  #Ligatures;
 
   # The Glyphs file will contain a set of information about selecting
   # connecting glyphs (what the Qalmi patent calls the Generic Selection
@@ -163,15 +155,15 @@ Feature rlig {
   LoadPlugin nastaliqTools.NastaliqConnections;
   NastaliqConnections rules.csv;
 
-  DefineClass @medis = /m\d+$/ & @reachable_glyphs;
-  DefineClass @inits = /i\d+$/ & @reachable_glyphs;
-  DefineClass @finas = /f\d+$/ & @reachable_glyphs;
+  DefineClass @medis = /m\d+$/;
+  DefineClass @inits = /i\d+$/;
+  DefineClass @finas = /f\d+$/;
   # The two following glyph classes are badly named. Really, they're referring
   # to anything which *behaves* like a BE (in the sense that it can "carry" a
   # nukta below the rasm) or anything which *behaves* like a bari ye (in the
   # sense that we need to drop those nuktas to avoid collisions with the tail
   # of the character.)
-  DefineClass @behs = /(JIM|BE)[mi]\d+$/ & @reachable_glyphs;
+  DefineClass @behs = /(JIM|BE)[mi]\d+$/;
   DefineClass @bariye = /(BARI_YE|JIM|AIN|CH_YE)f1/;
 
 
@@ -181,15 +173,17 @@ Feature rlig {
   LoadPlugin BariYe;
   BYMoveDots AlwaysDrop @below_nuktas;
   BYMoveDots AlwaysDrop [KASRA KASRA.yb];
+};
 
-  # Mehr's isolated bari ye ligatures need to be dealt with separately,
+Feature mset {
+  # Mehr's isolated bari ye(-like) ligatures need to be dealt with separately,
   # because they have no preceding glyphs but the nukta following them.
   # This means they're not picked up by the sequence-generator above.
   Routine HandleIsolBariYe {
-    Substitute  /BARI_YEu1$/ { [sdb ddb tdb] } -> $1.yb;
+    Substitute  /(BARI_YE|JIM|AIN|CH_YE)u1$/ { [sdb ddb tdb] } -> $1.yb;
   }  UseMarkFilteringSet [sdb ddb tdb];
   Routine HandleIsolBariYeKasra {
-    Substitute  /BARI_YEu1$/ { KASRA } -> $1.yb;
+    Substitute  /(BARI_YE|JIM|AIN|CH_YE)u1$/ { KASRA } -> $1.yb;
   }  UseMarkFilteringSet [KASRA];
 
 };
@@ -227,11 +221,14 @@ Feature mkmk {
   # Dots and marks on the letter preceding a swash kaf need to be dropped
   # down to avoid collision. Dots get moved right slightly.
   # XXX ideally tall kaf/gaf and short kaf/gaf should be treated differently.
-  DefineClass @kafgaf = /^(KAF|GAF)/ & @reachable_glyphs;
-  #Routine DropDotsOnTehGaf {
-  #  Position @above_nuktas <15 -60 0 0> @kafgaf;
-  #  Position @other_above_marks <0 -100 0 0> @kafgaf;
-  #} UseMarkFilteringSet [@above_nuktas @other_above_marks];
+  DefineClass @kafgaf = /^(KAF|GAF)/;
+
+  Routine DropDotsOnTehGaf {
+    Position { @above_nuktas <15 -60 0 0> @other_above_marks <0 200 0 0> } @kafgaf;
+
+    Position { @above_nuktas <15 -60 0 0> } @kafgaf;
+    Position { @other_above_marks <0 -100 0 0> } @kafgaf;
+  } UseMarkFilteringSet [@above_nuktas @other_above_marks];
 
   # The SeparateConsecutive plugin performs the "knock-on" separation of
   # dots according to the Qalmi patent. It looks for a sequence of consecutive
@@ -243,10 +240,10 @@ Feature mkmk {
   # versa.
   LoadPlugin nastaliqTools.SeparateConsecutive;
   Routine SeparateConsecutiveBelowDots {
-    SeparateConsecutive [tdi tdb sdb ddb sdb.yb ddb.yb tdb.yb] 3 120;
+    SeparateConsecutive [tdi tdb sdb ddb sdb.yb ddb.yb tdb.yb] 3 250;
   } IgnoreBases UseMarkFilteringSet [tdi tdb sdb ddb tdb sda dda sdb.yb ddb.yb tdb.yb];
   Routine SeparateConsecutiveAboveDots {
-    SeparateConsecutive [tda sda dda] 3 120;
+    SeparateConsecutive [tda sda dda] 3 250;
   } IgnoreBases UseMarkFilteringSet [tdi tdb sdb ddb tdb sda dda];
 
   # Dots in a bari ye sequence, created by the BYMoveDots rule above, should
@@ -262,7 +259,7 @@ Feature mkmk {
   # don't collide with preceding glyphs.
   DefineClass @overlapping_inits = @inits and (width < xMax(tdb));
   Routine OpenSpaceAroundSmallBehs {
-    Position @overlapping_inits <xAdvance=250> @nuktas <xPlacement=25>;
+    Position @overlapping_inits <xAdvance=300> @nuktas <xPlacement=50>;
   };
 
   # Position /[mi]\d+$/ @all_above_marks DAMMA <yPlacement=150> @kafgaf;
