@@ -36,7 +36,7 @@ Finally, we will change the sidebearings of some final glyphs so that their curs
 
 ## Connection editor
 
-Now that the glyphs are renamed according to our naming scheme, we can use the Nastaliq Connection Editor script for Glyphs to specify how the forms connect together. Add the script to your Glyphs scripts directory, and make sure you have installed the "vanilla" Python module. (You can do this by opening the preferences menu, selecting the "Addons" icon from the toolbar, opening the "modules" tab, and clicking on "Install Modules".)
+Now that the glyphs are renamed according to our naming scheme, we can use the [Nastaliq Connection Editor script](https://github.com/simoncozens/GlyphsScripts/blob/master/Nastaliq%20Connection%20Editor.py) for Glyphs to specify how the forms connect together. Add the script to your Glyphs scripts directory, and make sure you have installed the "vanilla" Python module. (You can do this by opening the preferences menu, selecting the "Addons" icon from the toolbar, opening the "modules" tab, and clicking on "Install Modules".)
 
 Open Nastaliq Connection Editor from the Script menu, and you should see a screen like the one below.
 
